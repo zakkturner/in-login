@@ -30,9 +30,15 @@ const Login = () => {
           </span>
           <hr />
           <div className="icon-container">
-            <FontAwesomeIcon icon={faFacebook} width="20" />
-            <FontAwesomeIcon icon={faGoogle} width="20" />
-            <FontAwesomeIcon icon={faTwitter} width="20" />
+            <div className="icon-circle">
+              <FontAwesomeIcon icon={faFacebook} width="20" />
+            </div>
+            <div className="icon-circle">
+              <FontAwesomeIcon icon={faGoogle} width="20" />
+            </div>
+            <div className="icon-circle">
+              <FontAwesomeIcon icon={faTwitter} width="20" />
+            </div>
           </div>
         </div>
       </form>

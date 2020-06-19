@@ -66,7 +66,7 @@
 
       hr{
         background-color: #e8eff6;
-        width: 100%;
+        width: 80%;
         height: .5px;
         border: none;
       }
@@ -75,11 +75,92 @@
         margin: 20px;
         display: flex;
         justify-content: space-around;
-        width: 15%;
+        width: 50%;
         color: #4b5d73;
+        .icon-circle {
+          width: 40px;
+          height: 40px;
+          border: 2px solid #e8eff6;
+          border-radius: 50%;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+        }
       }
     }
     
+  }
+
+}
+
+// portrait
+@media (min-width: 768px) {
+  .login-page{
+   
+    form{
+    
+      .form-container{
+    
+        input{
+        width: 50%
+         
+          
+        }
+        input[type='submit']{
+        
+        width: 50%;
+          
+        }
+        .icon-container{
+          
+          width: 25%;
+          
+          
+        }
+  
+      }
+      
+    }
+  
+  }
+
+
+}
+
+
+@media (min-width: 992px) {
+  .login-page{
+   
+    form{
+    
+      .form-container{
+    
+        input{
+        width: 25%
+         
+          
+        }
+        input[type='submit']{
+        
+        width: 25%;
+          
+        }
+        hr{
+        
+          width: 25%;
+          
+        }
+        .icon-container{
+          
+          width: 15%;
+          
+          
+        }
+      }
+      
+
+    }
+  
   }
 
 }
